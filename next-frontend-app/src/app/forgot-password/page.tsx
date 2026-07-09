@@ -37,7 +37,7 @@ export default function ForgotPasswordPage() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-                <h1 className="text-2xl font-bold text-center mb-6">パスワードをお忘れの方</h1>
+                <h1 className="text-2xl font-bold text-center text-gray-400 mb-6">パスワードをお忘れの方</h1>
 
                 {message && (
                     <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
